@@ -1,8 +1,35 @@
-<resources>
-    <!-- Base application theme. -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Светлая тема: цвета берутся из палитры otus_light_* -->
     <style name="Base.Theme.ViewResources" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/otus_light_primary</item>
+        <item name="colorOnPrimary">@color/otus_light_on_primary</item>
+        <item name="colorPrimaryContainer">@color/otus_light_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/otus_light_on_primary_container</item>
+        <item name="colorSecondary">@color/otus_light_secondary</item>
+        <item name="colorOnSecondary">@color/otus_light_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/otus_light_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/otus_light_on_secondary_container</item>
+        <item name="colorTertiary">@color/otus_light_tertiary</item>
+        <item name="colorOnTertiary">@color/otus_light_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/otus_light_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/otus_light_on_tertiary_container</item>
+        <item name="android:colorBackground">@color/otus_light_background</item>
+        <item name="colorOnBackground">@color/otus_light_on_background</item>
+        <item name="colorSurface">@color/otus_light_surface</item>
+        <item name="colorOnSurface">@color/otus_light_on_surface</item>
+        <item name="colorSurfaceVariant">@color/otus_light_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/otus_light_on_surface_variant</item>
+        <item name="colorOutline">@color/otus_light_outline</item>
+        <item name="colorOutlineVariant">@color/otus_light_outline_variant</item>
+        <item name="colorSurfaceContainerLowest">@color/otus_light_surface_container_lowest</item>
+        <item name="colorSurfaceContainerLow">@color/otus_light_surface_container_low</item>
+        <item name="colorSurfaceContainer">@color/otus_light_surface_container</item>
+        <item name="colorSurfaceContainerHigh">@color/otus_light_surface_container_high</item>
+        <item name="colorSurfaceContainerHighest">@color/otus_light_surface_container_highest</item>
+        <item name="android:statusBarColor">@color/otus_light_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- По макету все поля ввода — Filled -->
+        <item name="textInputStyle">@style/Widget.Material3.TextInputLayout.FilledBox</item>
     </style>
 
     <style name="Theme.ViewResources" parent="Base.Theme.ViewResources" />

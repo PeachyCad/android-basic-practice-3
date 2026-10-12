@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Итоги заказа и кнопка оформления. Подключается через <include> и в портрете, и в ландшафте -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/list_padding">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cart_order_total"
+            android:textAppearance="?attr/textAppearanceTitleLarge"
+            android:textColor="?attr/colorOnSurface" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceTitleLarge"
+            android:textColor="?attr/colorTertiary"
+            tools:text="$175.50" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/Widget.ViewResources.CartSummaryRow">
+
+        <TextView
+            style="@style/Widget.ViewResources.CartSummaryLabel"
+            android:text="@string/cart_subtotal" />
+
+        <TextView
+            android:id="@+id/subtotal"
+            style="@style/Widget.ViewResources.CartSummaryValue"
+            tools:text="$140" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/Widget.ViewResources.CartSummaryRow">
+
+        <TextView
+            style="@style/Widget.ViewResources.CartSummaryLabel"
+            android:text="@string/cart_shipping" />
+
+        <TextView
+            android:id="@+id/shipping"
+            style="@style/Widget.ViewResources.CartSummaryValue"
+            tools:text="$25" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/Widget.ViewResources.CartSummaryRow">
+
+        <TextView
+            style="@style/Widget.ViewResources.CartSummaryLabel"
+            android:text="@string/cart_tax" />
+
+        <TextView
+            android:id="@+id/tax"
+            style="@style/Widget.ViewResources.CartSummaryValue"
+            tools:text="$10.50" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/place_order_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/screen_padding"
+        android:text="@string/cart_place_order"
+        app:icon="@drawable/ic_sentiment_satisfied" />
+</LinearLayout>

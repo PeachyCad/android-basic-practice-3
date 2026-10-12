@@ -1,0 +1,8 @@
+<resources>
+    <!-- Отступы формы контакта и кнопок по макету -->
+    <dimen name="screen_padding">10dp</dimen>
+    <dimen name="field_spacing">10dp</dimen>
+    <!-- Отступы списка и итогов корзины -->
+    <dimen name="list_padding">16dp</dimen>
+    <dimen name="cart_image_size">80dp</dimen>
+</resources>

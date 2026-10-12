@@ -1,7 +1,33 @@
-<resources>
-    <!-- Base application theme. -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Тёмная тема: те же атрибуты, но из палитры otus_dark_* -->
     <style name="Base.Theme.ViewResources" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/otus_dark_primary</item>
+        <item name="colorOnPrimary">@color/otus_dark_on_primary</item>
+        <item name="colorPrimaryContainer">@color/otus_dark_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/otus_dark_on_primary_container</item>
+        <item name="colorSecondary">@color/otus_dark_secondary</item>
+        <item name="colorOnSecondary">@color/otus_dark_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/otus_dark_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/otus_dark_on_secondary_container</item>
+        <item name="colorTertiary">@color/otus_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/otus_dark_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/otus_dark_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/otus_dark_on_tertiary_container</item>
+        <item name="android:colorBackground">@color/otus_dark_background</item>
+        <item name="colorOnBackground">@color/otus_dark_on_background</item>
+        <item name="colorSurface">@color/otus_dark_surface</item>
+        <item name="colorOnSurface">@color/otus_dark_on_surface</item>
+        <item name="colorSurfaceVariant">@color/otus_dark_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/otus_dark_on_surface_variant</item>
+        <item name="colorOutline">@color/otus_dark_outline</item>
+        <item name="colorOutlineVariant">@color/otus_dark_outline_variant</item>
+        <item name="colorSurfaceContainerLowest">@color/otus_dark_surface_container_lowest</item>
+        <item name="colorSurfaceContainerLow">@color/otus_dark_surface_container_low</item>
+        <item name="colorSurfaceContainer">@color/otus_dark_surface_container</item>
+        <item name="colorSurfaceContainerHigh">@color/otus_dark_surface_container_high</item>
+        <item name="colorSurfaceContainerHighest">@color/otus_dark_surface_container_highest</item>
+        <item name="android:statusBarColor">@color/otus_dark_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="textInputStyle">@style/Widget.Material3.TextInputLayout.FilledBox</item>
     </style>
 </resources>

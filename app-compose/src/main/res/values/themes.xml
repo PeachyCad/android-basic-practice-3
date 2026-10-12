@@ -1,0 +1,5 @@
+<resources>
+    <!-- Тема окна: только фон до первого кадра Compose.
+         Все цвета экранов задаёт ViewResourcesTheme в ui/theme/Theme.kt -->
+    <style name="Theme.ViewResourcesCompose" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

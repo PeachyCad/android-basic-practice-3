@@ -1,0 +1,4 @@
+<resources>
+    <!-- Тёмный фон окна, чтобы при запуске в тёмной теме не мелькал белый экран -->
+    <style name="Theme.ViewResourcesCompose" parent="android:Theme.Material.NoActionBar" />
+</resources>

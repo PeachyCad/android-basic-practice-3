@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">View &amp; Resources Compose</string>
+
+    <string name="action_back">Back</string>
+    <string name="action_more">More options</string>
+
+    <!-- Main -->
+    <string name="main_open_cart">Open cart</string>
+    <string name="main_show_sign_in">Show sign in dialog</string>
+    <string name="main_open_contacts">Open contacts</string>
+
+    <!-- Contacts -->
+    <string name="contact_name_value">Ivan Petrov</string>
+    <string name="contact_attach">Attach</string>
+    <string name="contact_delete">Delete</string>
+    <string name="contact_name">Name</string>
+    <string name="contact_phone">Phone</string>
+    <string name="contact_phone_value">+1(234)567-8900</string>
+    <string name="contact_phone_type">Select</string>
+    <string name="contact_address">Address</string>
+    <string name="contact_address_value">123, Lenin street, Apt.6</string>
+    <string name="contact_city">City</string>
+    <string name="contact_city_value">Tokyo</string>
+    <string name="contact_country">Country</string>
+    <string name="contact_country_value">Australia</string>
+    <string name="contact_birthday">Date</string>
+    <string name="contact_birthday_value">24.10.2025</string>
+    <string name="contact_notes">Notes</string>
+    <string name="contact_notes_value">Loves burgers and french fries</string>
+    <string name="contact_save">Save</string>
+    <string-array name="phone_types">
+        <item>Mobile</item>
+        <item>Home</item>
+        <item>Work</item>
+    </string-array>
+
+    <!-- Cart -->
+    <string name="cart_title">Cart</string>
+    <string name="cart_close">Close</string>
+    <plurals name="cart_items_count">
+        <item quantity="one">%d item in your cart</item>
+        <item quantity="other">%d items in your cart</item>
+    </plurals>
+    <string name="cart_order_total">Order Total:</string>
+    <string name="cart_subtotal">Subtotal:</string>
+    <string name="cart_shipping">Shipping:</string>
+    <string name="cart_tax">Tax:</string>
+    <string name="cart_place_order">Place order</string>
+    <string name="cart_item_category">Category</string>
+    <string name="cart_item_description">Supporting line text lorem ipsum dolor sit amet, consectetur.</string>
+
+    <!-- Login -->
+    <string name="login_title">Login</string>
+    <string name="login_hint">Login</string>
+    <string name="login_password">Password</string>
+    <string name="login_reset_password">Reset my password</string>
+    <string name="login_submit">Login</string>
+    <string name="login_cancel">Cancel</string>
+</resources>
